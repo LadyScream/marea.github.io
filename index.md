@@ -1,8 +1,6 @@
 ---
-title: 
+title: ¡Hola! Soy <span style="--td:underline;">Manuel Arevalo</span>
 ---
-
-# ¡Hola! Soy <span style="--td:underline;">Manuel Arevalo</span>
 
 <figure><img src="/assets/images/me.jpg" alt="Este soy yo :)"
 style="--radius:100%;"></figure>
