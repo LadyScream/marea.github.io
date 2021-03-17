@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/bonsai-utilities.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <title>{% if page.title %}{{page.title | capitalize}} | {% endif %}{{site.title}}</title>
+  {% if page.style %}
+  <style>
+{{ page.style }}
+  </style>
+  {% endif %}
+</head>
+<body>
+  {% include navigation.html %}
+  <main>
+      {% if page.title %}
+      <div class="page__title">
+        <h1>{{page.title | capitalize}}</h1>
+      </div>
+      {% endif %}
+      {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>
+

@@ -1,0 +1,164 @@
+:root {
+  --bg: #eee;
+  --fg: #1a1a1a;
+  --p-color: #eb5160;
+  --s-color: #eb516035;
+  --img-overflow: 8em;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  width: 60ch;
+  max-width: 100vw;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+header {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+}
+
+header img {
+  width: 100px;
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    flex-flow: row;
+  }
+}
+
+nav {
+  padding-top: 1em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li + li {
+  padding-left: 1em;
+}
+
+main {
+  padding: 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--p-color);
+}
+
+a {
+  color: var(--p-color);
+  font-weight: bold;
+}
+
+blockquote, code, pre, a:hover, a:focus {
+  background-color: var(--s-color);
+}
+
+code {
+  padding: 0.1em;
+}
+
+pre {
+  padding: 1em;
+  overflow: auto;
+}
+
+pre > code {
+  background-color: transparent;
+}
+
+blockquote {
+  padding: 1em;
+}
+
+blockquote p {
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table caption {
+  font-style: italic;
+}
+
+table thead {
+  background-color: var(--fg);
+  color: var(--bg);
+}
+table th {
+  padding: 0.3em;
+}
+
+table, table td {
+  border: 1px solid var(--fg);
+}
+
+button, .button {
+  border: none;
+  background-color: var(--p-color);
+  color: var(--bg);
+  padding: 0.2em 0.4em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: var(--s-color);
+  color: var(--fg);
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  img {
+    width: calc(100% + var(--img-overflow));
+    margin: 0 calc(var(--img-overflow)/-2);
+  }
+}
+
+.logo {
+  width: 100px;
+  display: block;
+}
+
+.logo path {
+  fill: var(--fg);
+}

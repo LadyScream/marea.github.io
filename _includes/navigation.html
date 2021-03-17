@@ -1,0 +1,12 @@
+<header>
+  <a href="/">{% include logo.html %}</a>
+  <nav>
+    <ul>
+    {% for page in site.data.nav %}
+      <li>
+        <a href="{{ page.url }}" class="navbar__link">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+</header>
