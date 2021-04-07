@@ -6,7 +6,8 @@ title: ¡Hola! Soy <span style="--td:underline;">Manuel Arevalo</span>
 style="--radius:100%;"></figure>
 
 Soy un desarrollador web, escritor y creativo. Actualmente estoy trabajando en
-**Hoja Rota**.
+[Hoja Rota](https://fb.me/hojarota.zine) y empezando a trabajar en un
+[webserial](https://es.wikipedia.org/wiki/Webserial).
 
 ## Mira lo más reciente del blog
 
