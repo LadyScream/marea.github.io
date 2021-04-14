@@ -1,5 +1,6 @@
 ---
 title: ¿Por qué tomar notas en papel? 🗒️
+image: /assets/images/posts/2020-03-22--1.jpg
 ---
 
 ![Libreta en blanco sobre mesa de madera](/assets/images/posts/2020-03-22--1.jpg)
@@ -19,7 +20,7 @@ más fácil.
 Durante algunos años me he dedicado a aprender sobre distintas metodologías para
 la planeación de proyectos y la organización de información, desde el método
 **Kanban** pasando por aplicaciones como **Todoist**, **Notion** y **Trello**,
-hasta  métodos como **Zettelkasten** y **Bullet Journal**, algo que de lo que me
+hasta métodos como **Zettelkasten** y **Bullet Journal**, algo que de lo que me
 he dado cuenta es que personalmente me inclino más hacia métodos analógicos que
 a los digitales, principalmente por el hecho de que el escribir las cosas a mano
 me ayuda a memorizar mejor.
@@ -37,7 +38,7 @@ tus notas.
 
 Para muchos esto podría ser contraproducente, ¿Por qué he de revisar yo mismo
 mis notas si mi celular puede recordarme cuándo tengo que hacer algo?
-Personalmente la respuesta es simple: *Una noción de cohesión*. Con esto me
+Personalmente la respuesta es simple: _Una noción de cohesión_. Con esto me
 refiero a algo relativamente sencillo, el hecho de escribir a mano y de una
 manera permanente, en donde mis errores (tanto gramaticales como fallas en mi
 conocimiento) son obvios, hará que estén ahí para verme a la cara cada vez que abra la
