@@ -11,3 +11,13 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+social:
+  name: Manuel Arevalo
+  links:
+    - https://github.com/marea
+    - https://manuelarevalo.com/twtxt.txt
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
